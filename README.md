@@ -1,26 +1,47 @@
-# Introduction to JavaScript and DOM Manipulation
+<!DOCTYPE html>
+<html lang="en">
 
-## Objectives
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Content and Style with JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-Write basic JavaScript functions.
-Manipulate the DOM dynamically.
-Respond to user interactions.
+<body>
 
-## Instructions
+    <header>
+        <h1>Welcome to My Web Page</h1>
+        <p>This page demonstrates how to change text and style with JavaScript.</p>
+    </header>
 
-- Create a script.js file and link it to a HTML.
-- Structure the document using DOCTYPE, html, head, and body.
+    <main>
+        <section>
+            <h2>Change the content</h2>
+            <p id="dynamic-text">This is a paragraph that will change.</p>
+            <button id="change-text-btn">Change Text</button>
+        </section>
 
->[!NOTE]
->  - Write JavaScript that:
->  - Changes text content dynamically.
->  - Modifies CSS styles via JavaScript.
->  - Adds or removes an element when a button is clicked.
+        <section>
+            <h2>Modify the styles</h2>
+            <p id="style-text">This text will change style.</p>
+            <button id="change-style-btn">Change Style</button>
+        </section>
 
+        <section>
+            <h2>Add/Remove an element</h2>
+            <div id="dynamic-container">
+                <p>Click the button to add or remove an element.</p>
+            </div>
+            <button id="toggle-element-btn">Add/Remove Element</button>
+        </section>
+    </main>
 
-# Tasks
-- Create a well-structured HTML5 document.
-- Use at least 5 different HTML elements.
-- Ensure semantic correctness.
+    <footer>
+        <p>Created with love and JavaScript.</p>
+    </footer>
 
-Happy Coding! 💻✨
+    <script src="script.js"></script>
+</body>
+
+</html>
